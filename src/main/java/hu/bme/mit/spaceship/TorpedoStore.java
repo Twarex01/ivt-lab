@@ -13,7 +13,7 @@ public class TorpedoStore {
   private double FAILURE_RATE = 0.0; //NOSONAR
 
 
-  private int torpedoCount = 9;
+  private int torpedoCount = 0;
 
 
   public TorpedoStore(int numberOfTorpedos){
