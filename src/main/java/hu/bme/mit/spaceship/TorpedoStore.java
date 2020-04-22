@@ -49,7 +49,7 @@ public class TorpedoStore {
       // simulated failure
       success = false;
     }
-    //I changed a comment. :)
+    //I changed a comment :)
     return success;
   }
 
