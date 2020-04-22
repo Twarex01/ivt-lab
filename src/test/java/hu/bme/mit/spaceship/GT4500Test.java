@@ -21,7 +21,7 @@ public class GT4500Test {
 
     // Act
     boolean result = ship.fireTorpedo(FiringMode.SINGLE);
-
+    int test = 0;
     // Assert
     assertEquals(true, result);
   }
