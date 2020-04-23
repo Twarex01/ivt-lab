@@ -74,7 +74,7 @@ public class GT4500Test {
     when(primary.isEmpty()).thenReturn(true);
     when(secondary.isEmpty()).thenReturn(true);
     // Act
-    ship.fireTorpedo(FiringMode.ALL);
+    ship.fireTorpedo(FiringMode.SINGLE);
     // Assert
     verify(primary, times(0)).fire(1);
     verify(secondary, times(0)).fire(1);
@@ -96,8 +96,8 @@ public class GT4500Test {
   public void test5_Single_Success(){
     // Arrange
     when(primary.isEmpty()).thenReturn(false);
-    when(secondary.isEmpty()).thenReturn(true);
     when(primary.fire(1)).thenReturn(true);
+    when(secondary.isEmpty()).thenReturn(true); 
     // Act
     ship.fireTorpedo(FiringMode.SINGLE);
     ship.fireTorpedo(FiringMode.SINGLE);
