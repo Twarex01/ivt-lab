@@ -1,31 +1,5 @@
 # IVT Spaceship
 
-This is a sample application for the [Integration and Verification Techniques](http://www.mit.bme.hu/oktatas/targyak/vimiac04) course at BME MIT.
-
-The application is simplified and deliberately contains bugs.
-
-## Getting started
-
-- The project is implemented in Java 11.
-- The project can be built using [Maven](https://maven.apache.org/).
-- [JUnit](https://junit.org/junit5/) is used for tests, and [Mockito](https://site.mockito.org/) for isolating dependencies.
-
-Clone the repository and execute Maven to build the application:
-
-```
-mvn compile
-```
-
-To compile and run tests also execute:
-
-```
-mvn test
-```
-
-(That will be enough to know for the current exercises. If you are more interested, see [this](https://github.com/ftsrg/swsv-labs/wiki/0b-Build-tools) short guide about Maven.)
-
-As this is a really simple project, you can use the command-line build tools or a light-weight IDE like [Visual Studio Code](https://code.visualstudio.com/).
-
 ## Overview
 
 The project represents an alpha version of a spaceship.
